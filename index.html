@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://cdn4.iconfinder.com/data/icons/photo-video-outline/100/objects-17-512.png">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movies and TV Shows</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/6be8e96437.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+
+  <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Movies<br>& TV Shows</a> 
+      <input id="fMovies" class="form-control mr-sm-2 search" type="text" placeholder="Search for Movies, Shows, 5 stars.." aria-label="Search" >
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+    </div>
+   </nav>
+   <div class="srki fixed-top">
+<div class="container content ">
+  <div class="row">
+    <div class="col brko">
+      <button type="button" class="btn btn-outline-dark" id="movies" >Movies</button>
+    </div>
+    <div class="col brko">
+      <button  type="button" class="btn btn-outline-dark" id="shows" >TV Shows</button>
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="container gari">
+
+
+  <!-- MOVIES  -->
+  <div class="row">
+    <div id="mShow">
+      <div id="mBody">
+      
+      </div>
+      <button type="button" id="moreM" class="btn btn-link">View more results</button>
+
+      <!-- table --> <!-- table --><!-- table -->
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col">Movie</th>
+            <th scope="col-6">Your Rate</th>
+            <th scope="col">Average Rating</th>
+          </tr>
+        </thead>
+        <tbody id="mTable">
+
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+<!-- MOVIES END-->
+
+<!-- SHOWS  -->
+  <div class="row">
+    <div id="sShow">
+      <div id="sBody">
+
+      </div>
+      
+      <button type="button" id="moreS" class="btn btn-link">View more results</button>
+      
+    </div>
+    
+  </div>
+<!-- SHOWS  END-->
+
+</div>
+
+
+  <script src="js/main.js"></script>
+</body>
+</html>
